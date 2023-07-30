@@ -1,0 +1,53 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+*{
+  padding: 0;
+  margin: 0;
+}
+body{
+  font-family: 'Poppins', sans-serif;
+}
+:root{
+  --color-bg: #1f1f38;
+  --color-bg-variant: #2c2c6c;
+  --color-primary: gray;
+  --color-primary-variant: rgba(77,181,255,0.4);
+  --color-white:#fff;
+  --color-light:rgba(255,255,255,0.6);
+ /*  transitions allows you to change property values smoothly, over a given duration.  */
+  --transition: all 400ms ease;
+/* general component used in almost every sec */
+/* container size according to screen width */
+  --container-width-lg: 75%;
+  --container-width-md: 86%;
+  --container-width-sm: 86%;
+}
+/* body{
+  background-color: rgba(23, 14, 14, 0);
+} */
+.btn{
+  width: max-content;
+  display: inline-block;
+  color: var(--color-primary);
+  padding: 0.75rem 1.2rem;
+  border-radius: 0.4rem;
+  cursor: pointer;
+  border: 1px solid var(--color-primary);
+  transition: var(--transition);
+}
+
+.btn:hover{
+  background: var(--color-white);
+  color: var(--color-bg);
+  border-color: #111;
+}
+.btn-primary {
+  background: var(--color-primary);
+  color: var(--color-bg);
+}
+body::-webkit-scrollbar {
+  display: none;
+}
+html{
+  scroll-behavior: smooth;
+}

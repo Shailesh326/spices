@@ -1,0 +1,45 @@
+ .body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin-bottom: 10px; */
+    /* background: #7d2ae8; */
+}
+
+img{
+   max-width: 420px;
+   float: left;
+   /* border: 3px solid #111;
+   border-radius: 10px; */
+   margin-right: 35px;
+}
+.wrapper{
+  margin: 100px auto;  
+  width: 70%;
+}
+h2{
+    text-align: center;
+    margin-bottom: 15px;
+}
+.text-box{
+    color: #111;
+}
+.text-box h2{
+    font-size:42px ;
+}
+.text-box p{
+    font-size: 16px;
+}
+a{
+    text-decoration: none;
+}
+@media screen  and (max-width:600px) {
+    .wrapper{
+        margin: 80px auto;  
+        width: 85%;
+      }
+    img{
+        margin-left: 0px;
+        max-width:320px;
+    }
+ } 

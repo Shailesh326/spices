@@ -1,0 +1,34 @@
+
+.heading{
+text-align: center;
+margin: 0 10px 10px 10px;
+padding-bottom: 10px;
+
+}
+.para{
+    text-align: center;
+    margin-right: 120px;
+    margin-left: 120px;
+    padding-bottom: 20px;
+    /* color: purple ; */
+}
+.main{
+    background-image: url(history.jpg);
+    /* height: 100vh; */
+    background-size: 100% 100%; 
+    background-repeat: none; 
+    background-size: cover;
+    padding-top: 0;
+    /* margin-bottom: 4px; */
+}
+.button{
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+@media screen and (max-width: 600px){
+    .para{
+        margin-right: 40px;
+        margin-left: 40px;
+    }
+}
